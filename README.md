@@ -1,38 +1,17 @@
 <div align="center">
 
-  <!-- Add badges using the following format: -->
-  <!-- ![Name](urlToShieldHere)(urlToGithubHere) -->
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributors](https://img.shields.io/github/contributors/404pandas/pwa-kitties.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/pwa-kitties/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/404pandas/pwa-kitties.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/pwa-kitties/network/members)
-[![Stargazers](https://img.shields.io/github/stars/404pandas/pwa-kitties.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/pwa-kitties/stargazers)
-[![Issues](https://img.shields.io/github/issues/404pandas/pwa-kitties.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/pwa-kitties/issues)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](https://linkedin.com/in/LinkedInUsername)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](https://www.linkedin.com/in/uwttn/)
 
 </div>
 
 <!-- PROJECT LOGO -->
 
 <div align="center">
-  <a href="https://github.com/404pandas/pwa-kitties">
-    <img src="./client/src/images/logoNew.png" alt="Logo" width="80" height="80">
+<!-- Put the link to the repository here -->
+  <a href="">
+    <img src="./client/src/images/logoNew.png" alt="Logo" width="80" height="80" border-radius="10px">
   </a>
-
-<h3 align="center">K.I.T.T.I.E.S.</h3>
-
-  <p align="center">
-    Kitten Impregnable Thoughts Text In-Line Editing Software <br />
-    <a href="https://github.com/404pandas/pwa-kitties"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://pwa-kitties.onrender.com/">View App</a>
-    ·
-    <a href="https://github.com/404pandas/pwa-kitties/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/404pandas/pwa-kitties/issues">Request Feature</a>
-  </p>
-</div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -53,7 +32,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -62,9 +40,6 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-<!-- Add screenshots using the following format: -->
-<!-- ![Screenshot alt description](directPathOfScreenshots) -->
 
 This project was built using Webpack, Babel, and CodeMirror to create a progressive web app text editor themed around cats
 
@@ -90,32 +65,16 @@ This project was built using Webpack, Babel, and CodeMirror to create a progress
 ## Getting Started
 
 This app is fully functional and live at:
-https://pwa-kitties.onrender.com/
+<!-- Insert deployed app here -->
+
 
 If you would like to run the app locally, follow the below installation instructions
 
 ### Installation
 
-1. Clone the repo
-   git clone https://github.com/404pandas/pwa-kitties.git
+Clone the repository
 
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Please enjoy this video of the application being used
-
-(in development)
-
-To run in the app locally, simply run `npm i` to install all the dependencies.
-
-Then, run `npm run start` to launch the application
-
-To install the application while it's running locally, open the application at https://localhost:3000 and click on the install button
-
-Follow the prompts to complete the installation to operate this app offline!
-
-<!-- ROADMAP -->
+git clone https://github.com/Uwttn/code-editor.git
 
 ## Roadmap
 
@@ -131,44 +90,27 @@ Follow the prompts to complete the installation to operate this app offline!
 
 #### Future Development
 
-- [ ] Add front end
-
-See the [open issues](https://github.com/404pandas/pwa-kitties/issues) for a full list of proposed features (and known issues).
-
 <!-- CONTRIBUTING -->
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git push origin feature/AmazingFeature)
-5. Open a Pull Request
-
-<!-- LICENSE -->
-
-## License
-
-This project is licensed under the MIT license.
-
-See LICENSE.txt for more information.
+Want to improve this project? Great! We encourage contribution to make this project even better. Here are some ways you can contribute:
+- Report Bugs: If you find any issues, please report them.
+- Suggest feautures: Do you have an idea for a new feature? Share it with us!
+- Contribute code: If you have programming skills, feel free to contribute code to the project.
+- Provide feedback: Your feedback on the project is valuable. Let us know what you think!
 
 <!-- CONTACT -->
 
 ## Contact
 
-Mary Elenius - mary.panda.jackson@gmail.com
-
-Repo Link: [https://github.com/404pandas/pwa-kitties](https://github.com/404pandas/pwa-kitties)
-Live Link: [https://pwa-kitties.onrender.com/](https://pwa-kitties.onrender.com/)
+- Jose's [Portfolio](https://uwttn.github.io/portfolio/)
+- GitHub: [uwttn](https://github.com/uwttn)
+- LinkedIn: [uwttn](https://www.linkedin.com/in/uwttn)
+- Email: muchati@icloud.com
 
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
 
-I would like to give a big shoutout to my partner in crime and daughter, Yennefer! Every day she proves she is small yet mighty!
+I would like to acknowledge Mary Elenius [@404pandas](https://github.com/404pandas) for providing the starter code.

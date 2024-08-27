@@ -1,5 +1,5 @@
 {
-  "name": "pwa-kitties",
+  "name": "code-editor",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
