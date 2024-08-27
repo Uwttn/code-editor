@@ -32,7 +32,7 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "Kitten Impregnable Thoughts Text In-Line Editing Software",
+        name: "Text In-Line Editor",
         short_name: "code-editor",
         description: "Thoughts that even cats can't tear up!",
         favicon: "./favicon.ico",

@@ -9,15 +9,7 @@ export const setupDeleteButton = (editor) => {
     localStorage.removeItem("content");
     await deleteDb();
     editor.setValue(`
-      (")(") 
-    ("),--.(")
-     :"    ";      (")(") 
-     \`.____,'    ("),--.(")
-                  :"    ";
-                  \`.____,' 
-
-Your notes have been deleted!
-Those pesky kitties! 🐱🐾
+Your notes have been deleted, Soldier!
      `);
   });
 };

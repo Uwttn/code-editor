@@ -1,17 +1,17 @@
 import { openDB } from "idb";
 
 const initdb = async () =>
-  // Creates a new database named 'kitties' which will be using version 1 of the database.
-  openDB("kitties", 1, {
+  // Creates a new database named 'data' which will be using version 1 of the database.
+  openDB("data", 1, {
     // Adds database schema if it has not already been initialized.
     upgrade(db) {
-      if (db.objectStoreNames.contains("kitties")) {
-        console.log("Database for K.I.T.T.I.E.S. already exists");
+      if (db.objectStoreNames.contains("data")) {
+        console.log("Database for data already exists");
         return;
       }
       // Creates a new object store for the data and gives it a key name of 'id' which increments automatically.
-      db.createObjectStore("kitties", { keyPath: "id", autoIncrement: true });
-      console.log("Database for K.I.T.T.I.E.S. has been created");
+      db.createObjectStore("data", { keyPath: "id", autoIncrement: true });
+      console.log("Database for data has been created");
     },
   });
 
@@ -19,14 +19,14 @@ const initdb = async () =>
 export const putDb = async (content) => {
   console.log("Put to the database");
 
-  // Creates a connection to the kitties database and version.
-  const kittiesDb = await openDB("kitties", 1);
+  // Creates a connection to the data database and version.
+  const dataDb = await openDB("data", 1);
 
   // Creates a new transaction and specifies the database and data privileges.
-  const tx = kittiesDb.transaction("kitties", "readwrite");
+  const tx = dataDb.transaction("data", "readwrite");
 
   // Opens up the desired object store.
-  const store = tx.objectStore("kitties");
+  const store = tx.objectStore("data");
 
   // Uses the .put() method on the store and passes in the content.
   const request = store.put({ id: 1, value: content });
@@ -53,14 +53,14 @@ export const putDb = async (content) => {
 export const getDb = async () => {
   console.log("Get all notes from the database");
 
-  // Creates a connection to the kitties database and version.
-  const kittiesDb = await openDB("kitties", 1);
+  // Creates a connection to the data database and version.
+  const dataDb = await openDB("data", 1);
 
   // Creates a new transaction and specifies the database and data privileges.
-  const tx = kittiesDb.transaction("kitties", "readonly");
+  const tx = dataDb.transaction("data", "readonly");
 
   // Opens up the desired object store.
-  const store = tx.objectStore("kitties");
+  const store = tx.objectStore("data");
 
   // Uses the .get(1) method to retrieve the value of the first record matching the query.
 
@@ -76,9 +76,9 @@ export const getDb = async () => {
 
 export const deleteDb = async () => {
   console.log("Uh oh! The cat ran away with your notes!");
-  const kittiesDb = await openDB("kitties", 1);
-  const tx = kittiesDb.transaction("kitties", "readwrite");
-  const store = tx.objectStore("kitties");
+  const dataDb = await openDB("data", 1);
+  const tx = dataDb.transaction("data", "readwrite");
+  const store = tx.objectStore("data");
   const request = store.delete(1);
   await request;
 

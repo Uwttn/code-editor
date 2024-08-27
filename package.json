@@ -12,7 +12,7 @@
     "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "Jose Muchati",
+  "author": "Mary Elenius",
   "license": "MIT",
  
   "dependencies": {
