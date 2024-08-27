@@ -1,7 +1,7 @@
 {
-  "name": "code-editor",
+  "name": "JATE",
   "version": "1.0.0",
-  "description": "Text editor application converted to PWA",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run dev\" \"cd server && npm run server\" ",
@@ -12,16 +12,14 @@
     "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "Mary Elenius",
-  "license": "MIT",
- 
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4",
-    "webpack-cli": "^4.8.0"
+    "nodemon": "^2.0.4"
   }
 }
-

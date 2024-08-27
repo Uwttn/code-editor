@@ -1,6 +1,11 @@
 const header = `
 /*
-Type your code, Soldier!
+       _____  ____________
+      / /   |/_  __/ ____/
+ __  / / /| | / / / __/   
+/ /_/ / ___ |/ / / /___   
+ ____/_/  |_/_/ /_____/   
+just another text editor
 */                          
 `;
 

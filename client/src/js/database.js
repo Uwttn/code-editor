@@ -1,17 +1,14 @@
-import { openDB } from "idb";
+import { openDB } from 'idb';
 
 const initdb = async () =>
-  // Creates a new database named 'data' which will be using version 1 of the database.
-  openDB("data", 1, {
-    // Adds database schema if it has not already been initialized.
+  openDB('jate', 1, {
     upgrade(db) {
-      if (db.objectStoreNames.contains("data")) {
-        console.log("Database for data already exists");
+      if (db.objectStoreNames.contains('jate')) {
+        console.log('jate database already exists');
         return;
       }
-      // Creates a new object store for the data and gives it a key name of 'id' which increments automatically.
-      db.createObjectStore("data", { keyPath: "id", autoIncrement: true });
-      console.log("Database for data has been created");
+      db.createObjectStore('jate', { keyPath: 'id', autoIncrement: true });
+      console.log('jate database created');
     },
   });
 
