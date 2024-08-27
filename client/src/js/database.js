@@ -4,26 +4,26 @@ const initdb = async () =>
   openDB('jate', 1, {
     upgrade(db) {
       if (db.objectStoreNames.contains('jate')) {
-        console.log('jate database already exists');
+        console.log('jate jatebase already exists');
         return;
       }
       db.createObjectStore('jate', { keyPath: 'id', autoIncrement: true });
-      console.log('jate database created');
+      console.log('jate jatebase created');
     },
   });
 
-// Exports a function to POST to the database.
+// Exports a function to POST to the jatebase.
 export const putDb = async (content) => {
-  console.log("Put to the database");
+  console.log("Put to the jatebase");
 
-  // Creates a connection to the data database and version.
-  const dataDb = await openDB("data", 1);
+  // Creates a connection to the jate jatebase and version.
+  const jateDb = await openDB("jate", 1);
 
-  // Creates a new transaction and specifies the database and data privileges.
-  const tx = dataDb.transaction("data", "readwrite");
+  // Creates a new transaction and specifies the jatebase and jate privileges.
+  const tx = jateDb.transaction("jate", "readwrite");
 
   // Opens up the desired object store.
-  const store = tx.objectStore("data");
+  const store = tx.objectStore("jate");
 
   // Uses the .put() method on the store and passes in the content.
   const request = store.put({ id: 1, value: content });
@@ -32,32 +32,32 @@ export const putDb = async (content) => {
   const result = await request;
 
   if (result !== undefined) {
-    console.log("Data saved to the database, ID:", result);
+    console.log("Data saved to the jatebase, ID:", result);
 
-    // Fetch the newly inserted data to confirm it was saved correctly.
+    // Fetch the newly inserted jate to confirm it was saved correctly.
     const savedData = await store.get(result);
-    console.log("Saved data:", savedData.value);
+    console.log("Saved jate:", savedData.value);
     return savedData.value;
   } else {
     console.log(
-      "The cat ran away with the note! It wasn't saved to the database!"
+      "The cat ran away with the note! It wasn't saved to the jatebase!"
     );
     return null;
   }
 };
 
-// Exports a function to get the database.
+// Exports a function to get the jatebase.
 export const getDb = async () => {
-  console.log("Get all notes from the database");
+  console.log("Get all notes from the jatebase");
 
-  // Creates a connection to the data database and version.
-  const dataDb = await openDB("data", 1);
+  // Creates a connection to the jate jatebase and version.
+  const jateDb = await openDB("jate", 1);
 
-  // Creates a new transaction and specifies the database and data privileges.
-  const tx = dataDb.transaction("data", "readonly");
+  // Creates a new transaction and specifies the jatebase and jate privileges.
+  const tx = jateDb.transaction("jate", "readonly");
 
   // Opens up the desired object store.
-  const store = tx.objectStore("data");
+  const store = tx.objectStore("jate");
 
   // Uses the .get(1) method to retrieve the value of the first record matching the query.
 
@@ -66,22 +66,22 @@ export const getDb = async () => {
   // Gets confirmation of the request.
   const result = await request;
   result
-    ? console.log("Notes retrieved from database:", result.value)
-    : console.log("No notes found in database! The cat must have stolen them!");
+    ? console.log("Notes retrieved from jatebase:", result.value)
+    : console.log("No notes found in jatebase! The cat must have stolen them!");
   return result?.value;
 };
 
 export const deleteDb = async () => {
   console.log("Uh oh! The cat ran away with your notes!");
-  const dataDb = await openDB("data", 1);
-  const tx = dataDb.transaction("data", "readwrite");
-  const store = tx.objectStore("data");
+  const jateDb = await openDB("jate", 1);
+  const tx = jateDb.transaction("jate", "readwrite");
+  const store = tx.objectStore("jate");
   const request = store.delete(1);
   await request;
 
-  console.log("Note has been removed from the database");
+  console.log("Note has been removed from the jatebase");
   return true;
 };
 
-// Starts database
+// Starts jatebase
 initdb();
