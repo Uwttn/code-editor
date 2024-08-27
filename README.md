@@ -100,3 +100,5 @@ Email: muchati@icloud.com
 ## Acknowledgments
 
 I would like to acknowledge Mary Elenius [@404pandas](https://github.com/404pandas) for providing the starter code.
+
+© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
