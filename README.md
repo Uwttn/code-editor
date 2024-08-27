@@ -8,7 +8,6 @@
 <!-- PROJECT LOGO -->
 
 <div align="center">
-<!-- Put the link to the repository here -->
   <a href="">
     <img src="./client/src/images/logoNew.png" alt="Logo" width="80" height="80" border-radius="10px">
   </a>
@@ -16,32 +15,23 @@
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+  <ul><a href="#about-the-project">About The Project</a></ul>
+  <ul><a href="#built-with">Built With</a></ul>
+  <ul><a href="#getting-started">Getting Started</a></ul>
+  <ul><a href="#installation">Installation</a></ul>
+  <ul><a href="#usage">Usage</a></ul>
+  <ul><a href="#contributing">Contributing</a></ul>
+  <ul><a href="#contact">Contact</a></ul>
+  <ul><a href="#acknowledgments">Acknowledgments</a></ul>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 
+https://github.com/Uwttn/code-editor
+
 ## About The Project
 
-This project was built using Webpack, Babel, and CodeMirror to create a progressive web app text editor themed around cats
+This project was built using Webpack, Babel, and CodeMirror to create a progressive web app text editor. This was also forked and refactored.
 
 ### Built With
 
@@ -65,8 +55,8 @@ This project was built using Webpack, Babel, and CodeMirror to create a progress
 ## Getting Started
 
 This app is fully functional and live at:
-<!-- Insert deployed app here -->
 
+https://code-editor-q9t4.onrender.com/
 
 If you would like to run the app locally, follow the below installation instructions
 
@@ -76,18 +66,6 @@ Clone the repository
 
 git clone https://github.com/Uwttn/code-editor.git
 
-## Roadmap
-
-#### MVP
-
-- [x] Starter Code added
-- [x] indexDB functionality
-- [x] Webpack functionality
-- [x] Service Worker functionality
-- [x] manifest.json created w/ npm run build
-- [x] Install button functionality
-- [x] Deployed
-
 #### Future Development
 
 <!-- CONTRIBUTING -->
@@ -95,19 +73,23 @@ git clone https://github.com/Uwttn/code-editor.git
 ## Contributing
 
 Want to improve this project? Great! We encourage contribution to make this project even better. Here are some ways you can contribute:
-- Report Bugs: If you find any issues, please report them.
-- Suggest feautures: Do you have an idea for a new feature? Share it with us!
-- Contribute code: If you have programming skills, feel free to contribute code to the project.
-- Provide feedback: Your feedback on the project is valuable. Let us know what you think!
+
+Report Bugs: If you find any issues, please report them.
+Suggest feautures: Do you have an idea for a new feature? Share it with us!
+Contribute code: If you have programming skills, feel free to contribute code to the project.
+Provide feedback: Your feedback on the project is valuable. Let us know what you think!
 
 <!-- CONTACT -->
 
 ## Contact
 
-- Jose's [Portfolio](https://uwttn.github.io/portfolio/)
-- GitHub: [uwttn](https://github.com/uwttn)
-- LinkedIn: [uwttn](https://www.linkedin.com/in/uwttn)
-- Email: muchati@icloud.com
+Jose's [Portfolio](https://uwttn.github.io/portfolio/)
+
+GitHub: [uwttn](https://github.com/uwttn)
+
+LinkedIn: [uwttn](https://www.linkedin.com/in/uwttn)
+
+Email: muchati@icloud.com
 
 <!-- ACKNOWLEDGMENTS -->
 
