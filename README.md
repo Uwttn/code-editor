@@ -11,6 +11,7 @@
   <a href="">
     <img src="./client/src/images/logoNew.png" alt="Logo" width="80" height="80" border-radius="10px">
   </a>
+</div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -27,11 +28,10 @@
 
 <!-- ABOUT THE PROJECT -->
 
-https://github.com/Uwttn/code-editor
-
 ## About The Project
 
 This project was built using Webpack, Babel, and CodeMirror to create a progressive web app text editor. This was also forked and refactored.
+The project repository link is [here](https://github.com/Uwttn/code-editor).
 
 ### Built With
 
@@ -66,7 +66,11 @@ Clone the repository
 
 git clone https://github.com/Uwttn/code-editor.git
 
-#### Future Development
+To run in the app locally, simply run `npm i` to install all the dependencies.
+
+Then, run `npm run start` to launch the application
+
+To install the application while it's running locally, open the application at https://localhost:3000 and click on the install button.
 
 <!-- CONTRIBUTING -->
 
