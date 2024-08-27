@@ -9,7 +9,7 @@
 
 <div align="center">
   <a href="">
-    <img src="./client/src/images/logoNew.png" alt="Logo" width="80" height="80" border-radius="10px">
+    <img src="./client/src/images/logo.png" alt="Logo" width="80" height="80" border-radius="10px">
   </a>
 </div>
 
