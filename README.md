@@ -87,8 +87,6 @@ Want to improve this project? Great! We encourage contribution to make this proj
 
 ## Contact
 
-![alt text](Me.jpeg)
-
 Jose's [Portfolio](https://uwttn.github.io/portfolio/)
 
 GitHub: [uwttn](https://github.com/uwttn)
