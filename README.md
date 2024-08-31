@@ -29,7 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
+![alt text](editor.png)
 This project was built using Webpack, Babel, and CodeMirror to create a progressive web app text editor. This was also forked and refactored.
 The project repository link is [here](https://github.com/Uwttn/code-editor).
 
@@ -78,10 +78,10 @@ To install the application while it's running locally, open the application at h
 
 Want to improve this project? Great! We encourage contribution to make this project even better. Here are some ways you can contribute:
 
-Report Bugs: If you find any issues, please report them.
-Suggest feautures: Do you have an idea for a new feature? Share it with us!
-Contribute code: If you have programming skills, feel free to contribute code to the project.
-Provide feedback: Your feedback on the project is valuable. Let us know what you think!
+- Report Bugs: If you find any issues, please report them.
+- Suggest feautures: Do you have an idea for a new feature? Share it with us!
+- Contribute code: If you have programming skills, feel free to contribute code to the project.
+- Provide feedback: Your feedback on the project is valuable. Let us know what you think!
 
 <!-- CONTACT -->
 
